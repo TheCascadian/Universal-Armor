@@ -1,0 +1,3281 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+<file_summary>
+This section contains a summary of this file.
+
+<purpose>
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+</purpose>
+
+<file_format>
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Repository files (if enabled)
+5. Multiple file entries, each consisting of:
+  - File path as an attribute
+  - Full contents of the file
+</file_format>
+
+<usage_guidelines>
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+</usage_guidelines>
+
+<notes>
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+- Files are sorted by Git change count (files with more changes are at the bottom)
+</notes>
+
+</file_summary>
+
+<directory_structure>
+build.gradle
+gradle.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradlew
+gradlew.bat
+old_libs/universalarmor-1.0.0A.jar
+old_libs/universalarmor-1.0.1.jar
+run/command_history.txt
+run/config/fml.toml
+run/config/jei-server.toml
+run/config/jei/blacklist.json
+run/config/jei/ingredient-list-mod-sort-order.ini
+run/config/jei/ingredient-list-type-sort-order.ini
+run/config/jei/jei-client.ini
+run/config/jei/jei-colors.ini
+run/config/jei/jei-debug.ini
+run/config/jei/jei-mod-id-format.ini
+run/config/jei/recipe-category-sort-order.ini
+run/config/jei/world/local/New_World/bookmarks.json
+run/config/neoforge-client.toml
+run/config/neoforge-common.toml
+run/config/neoforge-server.toml
+run/crash-reports/crash-2026-06-13_15.32.01-fml.txt
+run/crash-reports/crash-2026-06-13_18.35.44-fml.txt
+run/crash-reports/crash-2026-06-13_23.08.50-fml.txt
+run/crash-reports/crash-2026-06-13_23.15.37-fml.txt
+run/downloads/log.json
+run/logs/2026-06-13-10.log.gz
+run/logs/2026-06-13-11.log.gz
+run/logs/2026-06-13-12.log.gz
+run/logs/2026-06-13-13.log.gz
+run/logs/2026-06-13-14.log.gz
+run/logs/2026-06-13-15.log.gz
+run/logs/2026-06-13-16.log.gz
+run/logs/2026-06-13-17.log.gz
+run/logs/2026-06-13-18.log.gz
+run/logs/2026-06-13-19.log.gz
+run/logs/2026-06-13-2.log.gz
+run/logs/2026-06-13-20.log.gz
+run/logs/2026-06-13-21.log.gz
+run/logs/2026-06-13-22.log.gz
+run/logs/2026-06-13-23.log.gz
+run/logs/2026-06-13-24.log.gz
+run/logs/2026-06-13-25.log.gz
+run/logs/2026-06-13-26.log.gz
+run/logs/2026-06-13-27.log.gz
+run/logs/2026-06-13-28.log.gz
+run/logs/2026-06-13-29.log.gz
+run/logs/2026-06-13-3.log.gz
+run/logs/2026-06-13-30.log.gz
+run/logs/2026-06-13-31.log.gz
+run/logs/2026-06-13-32.log.gz
+run/logs/2026-06-13-33.log.gz
+run/logs/2026-06-13-34.log.gz
+run/logs/2026-06-13-35.log.gz
+run/logs/2026-06-13-36.log.gz
+run/logs/2026-06-13-37.log.gz
+run/logs/2026-06-13-38.log.gz
+run/logs/2026-06-13-39.log.gz
+run/logs/2026-06-13-4.log.gz
+run/logs/2026-06-13-40.log.gz
+run/logs/2026-06-13-41.log.gz
+run/logs/2026-06-13-42.log.gz
+run/logs/2026-06-13-43.log.gz
+run/logs/2026-06-13-44.log.gz
+run/logs/2026-06-13-45.log.gz
+run/logs/2026-06-13-46.log.gz
+run/logs/2026-06-13-47.log.gz
+run/logs/2026-06-13-48.log.gz
+run/logs/2026-06-13-5.log.gz
+run/logs/2026-06-13-6.log.gz
+run/logs/2026-06-13-7.log.gz
+run/logs/2026-06-13-8.log.gz
+run/logs/2026-06-13-9.log.gz
+run/logs/2026-06-14-1.log.gz
+run/logs/2026-06-14-2.log.gz
+run/logs/2026-06-14-3.log.gz
+run/logs/2026-06-14-4.log.gz
+run/logs/2026-06-14-5.log.gz
+run/logs/2026-06-14-6.log.gz
+run/logs/2026-06-14-7.log.gz
+run/logs/debug-1.log.gz
+run/logs/debug-2.log.gz
+run/logs/debug-3.log.gz
+run/logs/debug-4.log.gz
+run/logs/debug-5.log.gz
+run/options.txt
+run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json
+run/saves/New World/data/neoforge_data_attachments.dat
+run/saves/New World/data/raids.dat
+run/saves/New World/data/random_sequences.dat
+run/saves/New World/DIM-1/data/neoforge_data_attachments.dat
+run/saves/New World/DIM-1/data/raids.dat
+run/saves/New World/DIM1/data/neoforge_data_attachments.dat
+run/saves/New World/DIM1/data/raids_end.dat
+run/saves/New World/entities/r.-1.-1.mca
+run/saves/New World/entities/r.-1.0.mca
+run/saves/New World/entities/r.0.-1.mca
+run/saves/New World/entities/r.0.0.mca
+run/saves/New World/icon.png
+run/saves/New World/level.dat
+run/saves/New World/level.dat_old
+run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat
+run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old
+run/saves/New World/poi/r.-1.-1.mca
+run/saves/New World/poi/r.-1.0.mca
+run/saves/New World/poi/r.0.-1.mca
+run/saves/New World/poi/r.0.0.mca
+run/saves/New World/region/r.-1.-1.mca
+run/saves/New World/region/r.-1.0.mca
+run/saves/New World/region/r.0.-1.mca
+run/saves/New World/region/r.0.0.mca
+run/saves/New World/serverconfig/readme.txt
+run/saves/New World/session.lock
+run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json
+run/screenshots/2026-06-13_16.04.03_2.png
+run/screenshots/2026-06-13_16.04.03.png
+run/screenshots/2026-06-13_16.04.04_2.png
+run/screenshots/2026-06-13_16.04.04.png
+run/screenshots/2026-06-13_16.04.08.png
+run/screenshots/2026-06-13_16.16.12.png
+run/screenshots/2026-06-13_16.42.21.png
+run/screenshots/2026-06-13_16.52.10.png
+run/screenshots/2026-06-13_16.52.11.png
+run/screenshots/2026-06-13_16.52.12.png
+run/screenshots/2026-06-13_16.56.23.png
+run/screenshots/2026-06-13_16.56.24.png
+run/screenshots/2026-06-13_17.03.20.png
+run/screenshots/2026-06-13_17.17.30.png
+run/screenshots/2026-06-13_17.17.31_2.png
+run/screenshots/2026-06-13_17.17.31.png
+run/screenshots/2026-06-13_17.17.32.png
+run/screenshots/2026-06-13_18.20.34.png
+run/screenshots/2026-06-13_18.36.49.png
+run/screenshots/2026-06-13_18.40.12.png
+run/screenshots/2026-06-13_20.52.08.png
+run/screenshots/2026-06-13_22.17.26_2.png
+run/screenshots/2026-06-13_22.17.26.png
+run/screenshots/2026-06-13_22.30.05.png
+run/screenshots/2026-06-13_22.30.12.png
+run/screenshots/2026-06-14_02.09.24.png
+run/screenshots/2026-06-14_02.12.12.png
+run/screenshots/2026-06-14_02.31.46.png
+run/screenshots/2026-06-14_02.51.24.png
+run/usercache.json
+run/usernamecache.json
+settings.gradle
+src/main/java/com/thecascadian/universalarmor/client/ArmorItemRenderer.java
+src/main/java/com/thecascadian/universalarmor/client/ClientArmorTextureHelper.java
+src/main/java/com/thecascadian/universalarmor/client/DynamicArmorLayer.java
+src/main/java/com/thecascadian/universalarmor/client/DynamicArmorModel.java
+src/main/java/com/thecascadian/universalarmor/client/DynamicArmorTextureManager.java
+src/main/java/com/thecascadian/universalarmor/client/ModClientEvents.java
+src/main/java/com/thecascadian/universalarmor/component/ArmorMaterialComponent.java
+src/main/java/com/thecascadian/universalarmor/item/UniversalArmorItem.java
+src/main/java/com/thecascadian/universalarmor/recipe/DynamicArmorRecipe.java
+src/main/java/com/thecascadian/universalarmor/registry/ModRegistries.java
+src/main/java/com/thecascadian/universalarmor/UniversalArmorMod.java
+src/main/java/com/thecascadian/universalarmor/util/DynamicStatsCalculator.java
+src/main/resources/assets/universalarmor/lang/en_us.json
+src/main/resources/assets/universalarmor/models/item/universal_boots.json
+src/main/resources/assets/universalarmor/models/item/universal_chestplate.json
+src/main/resources/assets/universalarmor/models/item/universal_helmet.json
+src/main/resources/assets/universalarmor/models/item/universal_leggings.json
+src/main/resources/assets/universalarmor/textures/item/boots_overlay.png
+src/main/resources/assets/universalarmor/textures/item/chestplate_overlay.png
+src/main/resources/assets/universalarmor/textures/item/helmet_overlay.png
+src/main/resources/assets/universalarmor/textures/item/leggings_overlay.png
+src/main/resources/assets/universalarmor/textures/models/armor/universal_layer_1.png
+src/main/resources/assets/universalarmor/textures/models/armor/universal_layer_2.png
+src/main/resources/data/minecraft/tags/item/enchantable/armor.json
+src/main/resources/data/minecraft/tags/item/enchantable/chest_armor.json
+src/main/resources/data/minecraft/tags/item/enchantable/foot_armor.json
+src/main/resources/data/minecraft/tags/item/enchantable/head_armor.json
+src/main/resources/data/minecraft/tags/item/enchantable/leg_armor.json
+src/main/resources/data/minecraft/tags/item/trimmable_armor.json
+src/main/resources/data/universalarmor/recipe/dynamic_armor.json
+src/main/resources/META-INF/MANIFEST.MF
+src/main/resources/META-INF/neoforge.mods.toml
+src/main/resources/pack.mcmeta
+</directory_structure>
+
+<files>
+This section contains the contents of the repository's files.
+
+<file path="build.gradle">
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'net.neoforged.moddev' version '2.0.140'
+    id 'idea'
+}
+
+tasks.named('wrapper', Wrapper).configure {
+    distributionType = Wrapper.DistributionType.BIN
+}
+
+version = mod_version
+group = mod_group_id
+
+repositories {
+    maven { url = "https://maven.blamejared.com" }
+}
+
+base {
+    archivesName = mod_id
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        mappingsVersion = project.parchment_mappings_version
+        minecraftVersion = project.parchment_minecraft_version
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        gameTestServer {
+            type = "gameTestServer"
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+dependencies {
+    compileOnly "org.spongepowered:mixin:0.8.5"
+    annotationProcessor "org.spongepowered:mixin:0.8.5:processor"
+
+    compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
+    localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+}
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/repo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}
+</file>
+
+<file path="gradle.properties">
+org.gradle.jvmargs=-Xmx3G
+org.gradle.parallel=true
+org.gradle.configuration-cache=false
+
+# Minecraft & NeoForge Target Configurations
+minecraft_version=1.21.1
+minecraft_version_range=[1.21.1,1.22)
+neo_version=21.1.65
+loader_version_range=[4,)
+
+# Mappings & APIs Configurations
+parchment_mappings_version=2024.11.17
+parchment_minecraft_version=1.21.1
+mc_version=1.21.1
+jei_version=19.21.0.247
+
+# Mod Details
+mod_id=universalarmor
+mod_name=Universal Armor
+mod_license=MIT
+mod_version=1.0.0
+mod_group_id=com.thecascadian.universalarmor
+mod_authors=TheCascadian
+</file>
+
+<file path="gradle/wrapper/gradle-wrapper.properties">
+distributionBase=GRADLE_USER_HOME
+distributionPath=wrapper/dists
+distributionUrl=https\://services.gradle.org/distributions/gradle-9.2.1-bin.zip
+networkTimeout=10000
+validateDistributionUrl=true
+zipStoreBase=GRADLE_USER_HOME
+zipStorePath=wrapper/dists
+</file>
+
+<file path="gradlew">
+#!/bin/sh
+
+#
+# Copyright © 2015-2021 the original authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+##############################################################################
+#
+#   Gradle start up script for POSIX generated by Gradle.
+#
+#   Important for running:
+#
+#   (1) You need a POSIX-compliant shell to run this script. If your /bin/sh is
+#       noncompliant, but you have some other compliant shell such as ksh or
+#       bash, then to run this script, type that shell name before the whole
+#       command line, like:
+#
+#           ksh Gradle
+#
+#       Busybox and similar reduced shells will NOT work, because this script
+#       requires all of these POSIX shell features:
+#         * functions;
+#         * expansions «$var», «${var}», «${var:-default}», «${var+SET}»,
+#           «${var#prefix}», «${var%suffix}», and «$( cmd )»;
+#         * compound commands having a testable exit status, especially «case»;
+#         * various built-in commands including «command», «set», and «ulimit».
+#
+#   Important for patching:
+#
+#   (2) This script targets any POSIX shell, so it avoids extensions provided
+#       by Bash, Ksh, etc; in particular arrays are avoided.
+#
+#       The "traditional" practice of packing multiple parameters into a
+#       space-separated string is a well documented source of bugs and security
+#       problems, so this is (mostly) avoided, by progressively accumulating
+#       options in "$@", and eventually passing that to Java.
+#
+#       Where the inherited environment variables (DEFAULT_JVM_OPTS, JAVA_OPTS,
+#       and GRADLE_OPTS) rely on word-splitting, this is performed explicitly;
+#       see the in-line comments for details.
+#
+#       There are tweaks for specific operating systems such as AIX, CygWin,
+#       Darwin, MinGW, and NonStop.
+#
+#   (3) This script is generated from the Groovy template
+#       https://github.com/gradle/gradle/blob/HEAD/platforms/jvm/plugins-application/src/main/resources/org/gradle/api/internal/plugins/unixStartScript.txt
+#       within the Gradle project.
+#
+#       You can find Gradle at https://github.com/gradle/gradle/.
+#
+##############################################################################
+
+# Attempt to set APP_HOME
+
+# Resolve links: $0 may be a link
+app_path=$0
+
+# Need this for daisy-chained symlinks.
+while
+    APP_HOME=${app_path%"${app_path##*/}"}  # leaves a trailing /; empty if no leading path
+    [ -h "$app_path" ]
+do
+    ls=$( ls -ld "$app_path" )
+    link=${ls#*' -> '}
+    case $link in             #(
+      /*)   app_path=$link ;; #(
+      *)    app_path=$APP_HOME$link ;;
+    esac
+done
+
+# This is normally unused
+# shellcheck disable=SC2034
+APP_BASE_NAME=${0##*/}
+# Discard cd standard output in case $CDPATH is set (https://github.com/gradle/gradle/issues/25036)
+APP_HOME=$( cd -P "${APP_HOME:-./}" > /dev/null && printf '%s\n' "$PWD" ) || exit
+
+# Use the maximum available, or set MAX_FD != -1 to use that value.
+MAX_FD=maximum
+
+warn () {
+    echo "$*"
+} >&2
+
+die () {
+    echo
+    echo "$*"
+    echo
+    exit 1
+} >&2
+
+# OS specific support (must be 'true' or 'false').
+cygwin=false
+msys=false
+darwin=false
+nonstop=false
+case "$( uname )" in                #(
+  CYGWIN* )         cygwin=true  ;; #(
+  Darwin* )         darwin=true  ;; #(
+  MSYS* | MINGW* )  msys=true    ;; #(
+  NONSTOP* )        nonstop=true ;;
+esac
+
+CLASSPATH="\\\"\\\""
+
+
+# Determine the Java command to use to start the JVM.
+if [ -n "$JAVA_HOME" ] ; then
+    if [ -x "$JAVA_HOME/jre/sh/java" ] ; then
+        # IBM's JDK on AIX uses strange locations for the executables
+        JAVACMD=$JAVA_HOME/jre/sh/java
+    else
+        JAVACMD=$JAVA_HOME/bin/java
+    fi
+    if [ ! -x "$JAVACMD" ] ; then
+        die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation."
+    fi
+else
+    JAVACMD=java
+    if ! command -v java >/dev/null 2>&1
+    then
+        die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation."
+    fi
+fi
+
+# Increase the maximum file descriptors if we can.
+if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
+    case $MAX_FD in #(
+      max*)
+        # In POSIX sh, ulimit -H is undefined. That's why the result is checked to see if it worked.
+        # shellcheck disable=SC2039,SC3045
+        MAX_FD=$( ulimit -H -n ) ||
+            warn "Could not query maximum file descriptor limit"
+    esac
+    case $MAX_FD in  #(
+      '' | soft) :;; #(
+      *)
+        # In POSIX sh, ulimit -n is undefined. That's why the result is checked to see if it worked.
+        # shellcheck disable=SC2039,SC3045
+        ulimit -n "$MAX_FD" ||
+            warn "Could not set maximum file descriptor limit to $MAX_FD"
+    esac
+fi
+
+# Collect all arguments for the java command, stacking in reverse order:
+#   * args from the command line
+#   * the main class name
+#   * -classpath
+#   * -D...appname settings
+#   * --module-path (only if needed)
+#   * DEFAULT_JVM_OPTS, JAVA_OPTS, and GRADLE_OPTS environment variables.
+
+# For Cygwin or MSYS, switch paths to Windows format before running java
+if "$cygwin" || "$msys" ; then
+    APP_HOME=$( cygpath --path --mixed "$APP_HOME" )
+    CLASSPATH=$( cygpath --path --mixed "$CLASSPATH" )
+
+    JAVACMD=$( cygpath --unix "$JAVACMD" )
+
+    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+    for arg do
+        if
+            case $arg in                                #(
+              -*)   false ;;                            # don't mess with options #(
+              /?*)  t=${arg#/} t=/${t%%/*}              # looks like a POSIX filepath
+                    [ -e "$t" ] ;;                      #(
+              *)    false ;;
+            esac
+        then
+            arg=$( cygpath --path --ignore --mixed "$arg" )
+        fi
+        # Roll the args list around exactly as many times as the number of
+        # args, so each arg winds up back in the position where it started, but
+        # possibly modified.
+        #
+        # NB: a `for` loop captures its iteration list before it begins, so
+        # changing the positional parameters here affects neither the number of
+        # iterations, nor the values presented in `arg`.
+        shift                   # remove old arg
+        set -- "$@" "$arg"      # push replacement arg
+    done
+fi
+
+
+# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+
+# Collect all arguments for the java command:
+#   * DEFAULT_JVM_OPTS, JAVA_OPTS, and optsEnvironmentVar are not allowed to contain shell fragments,
+#     and any embedded shellness will be escaped.
+#   * For example: A user cannot expect ${Hostname} to be expanded, as it is an environment variable and will be
+#     treated as '${Hostname}' itself on the command line.
+
+set -- \
+        "-Dorg.gradle.appname=$APP_BASE_NAME" \
+        -classpath "$CLASSPATH" \
+        -jar "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" \
+        "$@"
+
+# Stop when "xargs" is not available.
+if ! command -v xargs >/dev/null 2>&1
+then
+    die "xargs is not available"
+fi
+
+# Use "xargs" to parse quoted args.
+#
+# With -n1 it outputs one arg per line, with the quotes and backslashes removed.
+#
+# In Bash we could simply go:
+#
+#   readarray ARGS < <( xargs -n1 <<<"$var" ) &&
+#   set -- "${ARGS[@]}" "$@"
+#
+# but POSIX shell has neither arrays nor command substitution, so instead we
+# post-process each arg (as a line of input to sed) to backslash-escape any
+# character that might be a shell metacharacter, then use eval to reverse
+# that process (while maintaining the separation between arguments), and wrap
+# the whole thing up as a single "set" statement.
+#
+# This will of course break if any of these variables contains a newline or
+# an unmatched quote.
+#
+
+eval "set -- $(
+        printf '%s\n' "$DEFAULT_JVM_OPTS $JAVA_OPTS $GRADLE_OPTS" |
+        xargs -n1 |
+        sed ' s~[^-[:alnum:]+,./:=@_]~\\&~g; ' |
+        tr '\n' ' '
+    )" '"$@"'
+
+exec "$JAVACMD" "$@"
+</file>
+
+<file path="gradlew.bat">
+@rem
+@rem Copyright 2015 the original author or authors.
+@rem
+@rem Licensed under the Apache License, Version 2.0 (the "License");
+@rem you may not use this file except in compliance with the License.
+@rem You may obtain a copy of the License at
+@rem
+@rem      https://www.apache.org/licenses/LICENSE-2.0
+@rem
+@rem Unless required by applicable law or agreed to in writing, software
+@rem distributed under the License is distributed on an "AS IS" BASIS,
+@rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+@rem See the License for the specific language governing permissions and
+@rem limitations under the License.
+@rem
+@rem SPDX-License-Identifier: Apache-2.0
+@rem
+
+@if "%DEBUG%"=="" @echo off
+@rem ##########################################################################
+@rem
+@rem  Gradle startup script for Windows
+@rem
+@rem ##########################################################################
+
+@rem Set local scope for the variables with windows NT shell
+if "%OS%"=="Windows_NT" setlocal
+
+set DIRNAME=%~dp0
+if "%DIRNAME%"=="" set DIRNAME=.
+@rem This is normally unused
+set APP_BASE_NAME=%~n0
+set APP_HOME=%DIRNAME%
+
+@rem Resolve any "." and ".." in APP_HOME to make it shorter.
+for %%i in ("%APP_HOME%") do set APP_HOME=%%~fi
+
+@rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
+set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m"
+
+@rem Find java.exe
+if defined JAVA_HOME goto findJavaFromJavaHome
+
+set JAVA_EXE=java.exe
+%JAVA_EXE% -version >NUL 2>&1
+if %ERRORLEVEL% equ 0 goto execute
+
+echo. 1>&2
+echo ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH. 1>&2
+echo. 1>&2
+echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+echo location of your Java installation. 1>&2
+
+goto fail
+
+:findJavaFromJavaHome
+set JAVA_HOME=%JAVA_HOME:"=%
+set JAVA_EXE=%JAVA_HOME%/bin/java.exe
+
+if exist "%JAVA_EXE%" goto execute
+
+echo. 1>&2
+echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME% 1>&2
+echo. 1>&2
+echo Please set the JAVA_HOME variable in your environment to match the 1>&2
+echo location of your Java installation. 1>&2
+
+goto fail
+
+:execute
+@rem Setup the command line
+
+set CLASSPATH=
+
+
+@rem Execute Gradle
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_OPTS% "-Dorg.gradle.appname=%APP_BASE_NAME%" -classpath "%CLASSPATH%" -jar "%APP_HOME%\gradle\wrapper\gradle-wrapper.jar" %*
+
+:end
+@rem End local scope for the variables with windows NT shell
+if %ERRORLEVEL% equ 0 goto mainEnd
+
+:fail
+rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of
+rem the _cmd.exe /c_ return code!
+set EXIT_CODE=%ERRORLEVEL%
+if %EXIT_CODE% equ 0 set EXIT_CODE=1
+if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_CODE%
+exit /b %EXIT_CODE%
+
+:mainEnd
+if "%OS%"=="Windows_NT" endlocal
+
+:omega
+</file>
+
+<file path="run/command_history.txt">
+/gamemode creative
+/time set 0
+/gamemode survival
+/gamemode creative
+/setworldspawn
+/gamemode survival
+/gamemode
+/gamemode creative
+</file>
+
+<file path="run/config/fml.toml">
+#Early window height
+earlyWindowHeight = 480
+#Enable NeoForge global version checking
+versionCheck = true
+#Should we control the window. Disabling this disables new GL features and can be bad for mods that rely on them.
+earlyWindowControl = true
+#Early window framebuffer scale
+earlyWindowFBScale = 1
+#Disables File Watcher. Used to automatically update config if its file has been modified.
+disableConfigWatcher = false
+#Early window provider
+earlyWindowProvider = "fmlearlywindow"
+#Early window width
+earlyWindowWidth = 854
+#Early window starts maximized
+earlyWindowMaximized = false
+#Default config path for servers
+defaultConfigPath = "defaultconfigs"
+#Disables Optimized DFU client-side - already disabled on servers
+disableOptimizedDFU = true
+#Skip specific GL versions, may help with buggy graphics card drivers
+earlyWindowSkipGLVersions = []
+#Max threads for early initialization parallelism,  -1 is based on processor count
+maxThreads = -1
+#Squir?
+earlyWindowSquir = false
+</file>
+
+<file path="run/config/jei-server.toml">
+["cheat mode"]
+	#Enable the cheat mode for players who have an operator status (/op).
+	enableCheatModeForOp = true
+	#Enable the cheat mode for players who are in the creative mode.
+	enableCheatModeForCreative = true
+	#Enable the cheat mode for players who can use the "/give" command.
+	enableCheatModeForGive = false
+</file>
+
+<file path="run/config/jei/blacklist.json">
+[
+  {"version":2}
+]
+</file>
+
+<file path="run/config/jei/ingredient-list-mod-sort-order.ini">
+Minecraft
+</file>
+
+<file path="run/config/jei/ingredient-list-type-sort-order.ini">
+net.minecraft.world.item.ItemStack
+net.neoforged.neoforge.fluids.FluidStack
+</file>
+
+<file path="run/config/jei/jei-client.ini">
+[appearance]
+	# Name: Center Search Bar
+	# Description: Move the JEI search bar to the bottom center of the screen.
+	# Valid Values: [true, false]
+	# Default Value: false
+	centerSearch = false
+
+	# Name: Recipe GUI Height
+	# Description: The maximum height for the Recipes Gui (in pixels).
+	# Valid Values: Any integer greater than or equal to 175
+	# Default Value: 350
+	recipeGuiHeight = 350
+
+
+[cheating]
+	# Name: Give Mode
+	# Description: Choose if JEI should give ingredients directly to the inventory or pick them up with the mouse.
+	# Valid Values: [INVENTORY, MOUSE_PICKUP]
+	# Default Value: MOUSE_PICKUP
+	giveMode = MOUSE_PICKUP
+
+	# Name: Cheat Items to Hotbar Using Hotkeys
+	# Description: Enable cheating items into the hotbar by using Shift + numeric keys.
+	# Valid Values: [true, false]
+	# Default Value: false
+	cheatToHotbarUsingHotkeysEnabled = false
+
+	# Name: Show Hidden Ingredients
+	# Description: Enable showing ingredients that are not in the creative menu.
+	# Valid Values: [true, false]
+	# Default Value: false
+	showHiddenIngredients = false
+
+	# Name: Show Tag Recipes
+	# Description: Show recipes for ingredient tags like item tags and block tags.
+	# Valid Values: [true, false]
+	# Default Value: true
+	showTagRecipesEnabled = true
+
+
+[bookmarks]
+	# Name: Add Bookmarks to Front
+	# Description: When true, add new bookmarks to the front of the list. When false, add them to the end.
+	# Valid Values: [true, false]
+	# Default Value: false
+	addBookmarksToFrontEnabled = false
+
+	# Name: Drag To Rearrange Bookmarks
+	# Description: Enable dragging bookmarks to rearrange them in the list.
+	# Valid Values: [true, false]
+	# Default Value: true
+	dragToRearrangeBookmarksEnabled = true
+
+
+[tooltips]
+	# Name: Bookmarks Tooltips Features
+	# Description: Extra features for bookmark tooltips.
+	# Valid Values: A comma-separated list containing values of:
+	# [PREVIEW, INGREDIENTS]
+	# Default Value: PREVIEW
+	bookmarkTooltipFeatures = PREVIEW
+
+	# Name: Shift for Bookmarks Tooltips
+	# Description: Hold Shift to show bookmark tooltip features.
+	# Valid Values: [true, false]
+	# Default Value: true
+	holdShiftToShowBookmarkTooltipFeatures = true
+
+	# Name: Show Creative Tab Names
+	# Description: Show creative tab names in ingredient tooltips.
+	# Valid Values: [true, false]
+	# Default Value: false
+	showCreativeTabNamesEnabled = false
+
+	# Name: Show Tag Contents
+	# Description: Show tag content in tooltips when browsing recipe ingredients.
+	# Valid Values: [true, false]
+	# Default Value: true
+	tagContentTooltipEnabled = true
+
+	# Name: Hide Single-Ingredient Tag Contents
+	# Description: Hide tag content in tooltips when there is only one ingredient in the tag.
+	# Valid Values: [true, false]
+	# Default Value: true
+	hideSingleTagContentTooltipEnabled = true
+
+
+[performance]
+	# Name: Low Memory Search
+	# Description: Set search to low-memory mode (makes search slow but uses less RAM).
+	# Valid Values: [true, false]
+	# Default Value: false
+	lowMemorySlowSearchEnabled = false
+
+
+[lookups]
+	# Name: Lookup Fluid Contents
+	# Description: When looking up recipes with items that contain fluids, also look up recipes for the fluids.
+	# Valid Values: [true, false]
+	# Default Value: false
+	lookupFluidContentsEnabled = false
+
+	# Name: Lookup ItemBlock Tags
+	# Description: When searching for item tags, also include tags for the default blocks contained in the items.
+	# Valid Values: [true, false]
+	# Default Value: true
+	lookupBlockTagsEnabled = true
+
+
+[advanced]
+	# Name: Catch Render Errors
+	# Description: Catch render errors from modded ingredients and attempt to recover from them instead of crashing.
+	# Valid Values: [true, false]
+	# Default Value: false
+	catchRenderErrorsEnabled = false
+
+
+[input]
+	# Name: Drag Delay
+	# Description: Number of milliseconds before a long mouse click is considered dragging the mouse.
+	# Valid Values: An integer in the range [0, 1000] (inclusive)
+	# Default Value: 150
+	dragDelayInMilliseconds = 150
+
+	# Name: Smooth Scroll Rate
+	# Description: Scroll rate for scrolling the mouse wheel in smooth-scrolling scroll boxes. Measured in pixels.
+	# Valid Values: An integer in the range [1, 50] (inclusive)
+	# Default Value: 9
+	smoothScrollRate = 9
+
+
+[sorting]
+	# Name: Ingredient Sorting Stages
+	# Description: Sorting order for the ingredient list.
+	# Valid Values: A comma-separated list containing values of:
+	# [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, ARMOR, MAX_DURABILITY]
+	# Default Value: MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU
+	ingredientSortStages = MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU
+
+	# Name: Recipe Sorting Stages
+	# Description: Sorting order for displayed recipes.
+	# Valid Values: A comma-separated list containing values of:
+	# [BOOKMARKED, CRAFTABLE]
+	# Default Value: BOOKMARKED, CRAFTABLE
+	recipeSorterStages = BOOKMARKED, CRAFTABLE
+
+
+[search]
+	# Name: @Mod Name Search Mode
+	# Description: Search mode for mod names (prefix: @).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: REQUIRE_PREFIX
+	modNameSearchMode = REQUIRE_PREFIX
+
+	# Name: #Tag Search Mode
+	# Description: Search mode for tags (prefix: #).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: REQUIRE_PREFIX
+	tagSearchMode = REQUIRE_PREFIX
+
+	# Name: $Tooltip Search Mode
+	# Description: Search mode for tooltips (prefix: $).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: ENABLED
+	tooltipSearchMode = ENABLED
+
+	# Name: ^Color Search Mode
+	# Description: Search mode for colors (prefix: ^).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: DISABLED
+	colorSearchMode = DISABLED
+
+	# Name: &Resource Location Search Mode
+	# Description: Search mode for resource locations (prefix: &).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: DISABLED
+	resourceLocationSearchMode = DISABLED
+
+	# Name: %Creative Tab Search Mode
+	# Description: Search mode for creative mode tab names (prefix: %).
+	# Valid Values: [ENABLED, REQUIRE_PREFIX, DISABLED]
+	# Default Value: DISABLED
+	creativeTabSearchMode = DISABLED
+
+	# Name: Search Advanced Tooltips
+	# Description: Search in advanced tooltips (visible with F3 + H).
+	# Valid Values: [true, false]
+	# Default Value: false
+	searchAdvancedTooltips = false
+
+	# Name: Search Mod Ids
+	# Description: Search mod IDs in addition to mod names.
+	# Valid Values: [true, false]
+	# Default Value: true
+	searchModIds = true
+
+	# Name: Search Mod Aliases
+	# Description: Search mod aliases (alternative names) that are added by plugins, in addition to mod names.
+	# Valid Values: [true, false]
+	# Default Value: true
+	searchModAliases = true
+
+	# Name: Search Short Mod Names
+	# Description: Search by the shorthand first letters of a mod's name.
+	# Valid Values: [true, false]
+	# Default Value: false
+	searchShortModNames = false
+
+	# Name: Search Ingredient Aliases
+	# Description: Search ingredient aliases (alternative names) that are added by plugins, in addition to ingredient names.
+	# Valid Values: [true, false]
+	# Default Value: true
+	searchIngredientAliases = true
+
+
+[ingredientList]
+	# Name: Max Rows
+	# Description: Max number of rows shown.
+	# Valid Values: An integer in the range [1, 100] (inclusive)
+	# Default Value: 16
+	maxRows = 16
+
+	# Name: Max Columns
+	# Description: Max number of columns shown.
+	# Valid Values: An integer in the range [2, 100] (inclusive)
+	# Default Value: 9
+	maxColumns = 9
+
+	# Name: Horizontal Alignment
+	# Description: Horizontal alignment of the ingredient list inside the available area.
+	# Valid Values: [LEFT, CENTER, RIGHT]
+	# Default Value: RIGHT
+	horizontalAlignment = RIGHT
+
+	# Name: Vertical Alignment
+	# Description: Vertical alignment of the ingredient list inside the available area.
+	# Valid Values: [TOP, CENTER, BOTTOM]
+	# Default Value: TOP
+	verticalAlignment = TOP
+
+	# Name: Navigation Visibility
+	# Description: Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	# Valid Values: [ENABLED, AUTO_HIDE, DISABLED]
+	# Default Value: ENABLED
+	buttonNavigationVisibility = ENABLED
+
+	# Name: Draw GUI Background
+	# Description: Enable this to draw a background texture behind the ingredient list.
+	# Valid Values: [true, false]
+	# Default Value: false
+	drawBackground = false
+
+
+[bookmarkList]
+	# Name: Max Rows
+	# Description: Max number of rows shown.
+	# Valid Values: An integer in the range [1, 100] (inclusive)
+	# Default Value: 16
+	maxRows = 16
+
+	# Name: Max Columns
+	# Description: Max number of columns shown.
+	# Valid Values: An integer in the range [2, 100] (inclusive)
+	# Default Value: 9
+	maxColumns = 9
+
+	# Name: Horizontal Alignment
+	# Description: Horizontal alignment of the bookmark list inside the available area.
+	# Valid Values: [LEFT, CENTER, RIGHT]
+	# Default Value: LEFT
+	horizontalAlignment = LEFT
+
+	# Name: Vertical Alignment
+	# Description: Vertical alignment of the bookmark list inside the available area.
+	# Valid Values: [TOP, CENTER, BOTTOM]
+	# Default Value: TOP
+	verticalAlignment = TOP
+
+	# Name: Navigation Visibility
+	# Description: Visibility of the top page buttons. Use AUTO_HIDE to only show it when there are multiple pages.
+	# Valid Values: [ENABLED, AUTO_HIDE, DISABLED]
+	# Default Value: ENABLED
+	buttonNavigationVisibility = ENABLED
+
+	# Name: Draw GUI Background
+	# Description: Enable this to draw a background texture behind the bookmark list.
+	# Valid Values: [true, false]
+	# Default Value: false
+	drawBackground = false
+</file>
+
+<file path="run/config/jei/jei-colors.ini">
+[colors]
+	# Name: Search Colors
+	# Description: Color values to search for.
+	# Valid Values: A comma-separated list containing values of:
+	# Any color name and an RGB hex color, separated by a ':'
+	# Default Value: White:EEEEEE, LightBlue:7492CC, Cyan:00EEEE, Blue:2222DD, LapisBlue:25418B, Teal:008080, Yellow:CACB58, GoldenYellow:EED700, Orange:D97634, Pink:D1899D, HotPink:FC0FC0, Magenta:B24BBB, Purple:813EB9, EvilPurple:2E1649, Lavender:B57EDC, Indigo:480082, Sand:DBD3A0, Tan:BB9B63, LightBrown:A0522D, Brown:634B33, DarkBrown:3A2D13, LimeGreen:43B239, SlimeGreen:83CB73, Green:008000, DarkGreen:224D22, GrassGreen:548049, Red:963430, BrickRed:B0604B, NetherBrick:2A1516, Redstone:CE3E36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0
+	searchColors = White:EEEEEE, LightBlue:7492CC, Cyan:00EEEE, Blue:2222DD, LapisBlue:25418B, Teal:008080, Yellow:CACB58, GoldenYellow:EED700, Orange:D97634, Pink:D1899D, HotPink:FC0FC0, Magenta:B24BBB, Purple:813EB9, EvilPurple:2E1649, Lavender:B57EDC, Indigo:480082, Sand:DBD3A0, Tan:BB9B63, LightBrown:A0522D, Brown:634B33, DarkBrown:3A2D13, LimeGreen:43B239, SlimeGreen:83CB73, Green:008000, DarkGreen:224D22, GrassGreen:548049, Red:963430, BrickRed:B0604B, NetherBrick:2A1516, Redstone:CE3E36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0
+</file>
+
+<file path="run/config/jei/jei-debug.ini">
+[debug]
+	# Name: Debug Mode
+	# Description: Enable debug mode
+	# Valid Values: [true, false]
+	# Default Value: false
+	debugMode = false
+
+	# Name: Debug GUIs
+	# Description: Enable Debug GUIs mode
+	# Valid Values: [true, false]
+	# Default Value: false
+	debugGuis = false
+
+	# Name: Debug Inputs
+	# Description: Enable Debug Inputs mode
+	# Valid Values: [true, false]
+	# Default Value: false
+	debugInputs = false
+
+	# Name: Debug Info Tooltips
+	# Description: Add debug information to ingredient tooltips when advanced tooltips are enabled.
+	# Valid Values: [true, false]
+	# Default Value: false
+	debugInfoTooltipsEnabled = false
+
+	# Name: Enable Crashing Test Items
+	# Description: Adds ingredients to JEI that intentionally crash, to help debug JEI.
+	# Valid Values: [true, false]
+	# Default Value: false
+	crashingTestItemsEnabled = false
+
+	# Name: Log Search Tree Statistics
+	# Description: Log information about the suffix trees used for searching, to help debug JEI.
+	# Valid Values: [true, false]
+	# Default Value: false
+	logSuffixTreeStats = false
+</file>
+
+<file path="run/config/jei/jei-mod-id-format.ini">
+[modName]
+	# Name: Mod Name Format
+	# Description: Formatting for the mod names in tooltips for JEI GUIs. Leave blank to disable.
+	# Valid Values: A chat formatting string.
+	# Use these formatting colors:
+	# black dark_blue dark_green dark_aqua dark_red dark_purple gold gray dark_gray blue green aqua red light_purple yellow white
+	# With these formatting options:
+	# obfuscated bold strikethrough underline italic
+	# Default Value: blue italic
+	modNameFormat = blue italic
+</file>
+
+<file path="run/config/jei/recipe-category-sort-order.ini">
+minecraft:crafting
+minecraft:anvil
+minecraft:blasting
+minecraft:brewing
+minecraft:campfire_cooking
+minecraft:compostable
+minecraft:fuel
+minecraft:smelting
+minecraft:smithing
+minecraft:smoking
+minecraft:stonecutting
+minecraft:tag_recipes/block
+minecraft:tag_recipes/fluid
+minecraft:tag_recipes/item
+jei:information
+</file>
+
+<file path="run/config/jei/world/local/New_World/bookmarks.json">
+[
+  {"version":2}
+]
+</file>
+
+<file path="run/config/neoforge-client.toml">
+#EXPERIMENTAL: Enable the NeoForge block rendering pipeline - fixes the lighting of custom models.
+experimentalForgeLightPipelineEnabled = false
+#When enabled, NeoForge will show any warnings that occurred during loading.
+showLoadWarnings = true
+#Set to true to use a combined DEPTH_STENCIL attachment instead of two separate ones.
+useCombinedDepthStencilAttachment = false
+#A config option mainly for developers. Logs out configuration values that do not have translations when running a client in a development environment.
+logUntranslatedConfigurationWarnings = true
+</file>
+
+<file path="run/config/neoforge-common.toml">
+#A config option mainly for developers. Logs out modded item tags that do not have translations when running on integrated server. Format desired is tag.item.<namespace>.<path> for the translation key. Defaults to SILENCED.
+#Allowed Values: SILENCED, DEV_SHORT, DEV_VERBOSE, PROD_SHORT, PROD_VERBOSE
+logUntranslatedItemTagWarnings = "SILENCED"
+#A config option mainly for developers. Logs out modded tags that are using the 'forge' namespace when running on integrated server. Defaults to DEV_SHORT.
+#Allowed Values: SILENCED, DEV_SHORT, DEV_VERBOSE, PROD_SHORT, PROD_VERBOSE
+logLegacyTagWarnings = "DEV_SHORT"
+</file>
+
+<file path="run/config/neoforge-server.toml">
+#Set this to true to remove any BlockEntity that throws an error in its update method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.
+removeErroringBlockEntities = false
+#Set this to true to remove any Entity (Note: Does not include BlockEntities) that throws an error in its tick method instead of closing the server and reporting a crash log. BE WARNED THIS COULD SCREW UP EVERYTHING USE SPARINGLY WE ARE NOT RESPONSIBLE FOR DAMAGES.
+removeErroringEntities = false
+#Set this to true to check the entire entity's collision bounding box for ladders instead of just the block they are in. Causes noticeable differences in mechanics so default is vanilla behavior. Default: false.
+fullBoundingBoxLadders = false
+#The permission handler used by the server. Defaults to neoforge:default_handler if no such handler with that name is registered.
+permissionHandler = "neoforge:default_handler"
+#Set this to true to enable advertising the dedicated server to local LAN clients so that it shows up in the Multiplayer screen automatically.
+advertiseDedicatedServerToLan = true
+</file>
+
+<file path="run/crash-reports/crash-2026-06-13_15.32.01-fml.txt">
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 2026-06-13 15:32:01
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableParser.parseNonDottedKey(TableParser.java:205) ~[toml-3.8.0.jar%23100!/:?] {}
+-- Mod loading issue --
+Details:
+	Mod file: <No mod information provided>
+	Failure message: File C:\Users\Don McCann\Desktop\DUMP THINGS\BigOlMod\UniversalArmor\build\classes\java\main is not a valid mod file
+	Mod version: <No mod information provided>
+	Mod issues URL: <No issues URL found>
+	Exception message: com.electronwill.nightconfig.core.io.ParsingException: Invalid bare key: '${mod_id}'
+Stacktrace:
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableParser.parseNonDottedKey(TableParser.java:205) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TableParser.parseTableName(TableParser.java:134) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:68) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:45) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.toml@3.8.0/com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:18) ~[toml-3.8.0.jar%23100!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:99) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:216) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.file.AsyncFileConfig.loadNow(AsyncFileConfig.java:189) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.8.0/com.electronwill.nightconfig.core.file.AsyncFileConfig.load(AsyncFileConfig.java:270) ~[core-3.8.0.jar%2399!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModFileParser.modsTomlParser(ModFileParser.java:48) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModFileParser.readModList(ModFileParser.java:35) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModFile.<init>(ModFile.java:77) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModFile.<init>(ModFile.java:66) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader.createModFile(JarModsDotTomlModFileReader.java:45) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader.read(JarModsDotTomlModFileReader.java:88) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModDiscoverer$DiscoveryPipeline.addJarContent(ModDiscoverer.java:202) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModDiscoverer$DiscoveryPipeline.addPath(ModDiscoverer.java:179) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.locators.UserdevLocator.findCandidates(UserdevLocator.java:34) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:72) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.FMLLoader.beginModScan(FMLLoader.java:125) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:84) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:97) ~[modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$7(TransformationServicesHandler.java:94) ~[modlauncher-11.0.4.jar%23121!/:?] {}
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.base/java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1787) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:96) ~[modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:50) ~[modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:84) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%23121!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 345052800 bytes (329 MiB) / 696254464 bytes (664 MiB) up to 16944988160 bytes (16160 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 7600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.13018.6
+	Graphics card #1 name: NVIDIA GeForce GTX 1660 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 6144.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9636
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 68713.98
+	Virtual memory used (MiB): 27804.81
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 48.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 28052.79, total: 487494.19
+	Space in storage for workdir (MiB): available: 28052.79, total: 487494.19
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.65.jar                              |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.65.jar                              |NeoForge                      |neoforge                      |21.1.65             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.21.0.247.jar               |Just Enough Items             |jei                           |19.21.0.247         |Manifest: NOSIGNATURE
+</file>
+
+<file path="run/crash-reports/crash-2026-06-13_18.35.44-fml.txt">
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 2026-06-13 18:35:44
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+-- Mod loading issue for: universalarmor --
+Details:
+	Mod file: /C:/Users/Don McCann/Desktop/DUMP THINGS/BigOlMod/UniversalArmor/build/classes/java/main/
+	Failure message: Universal Armor (universalarmor) has failed to load correctly
+		java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+		The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+		
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$4(AutomaticEventSubscriber.java:60) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:44) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:126) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 298302392 bytes (284 MiB) / 629145600 bytes (600 MiB) up to 16944988160 bytes (16160 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 7600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.13018.6
+	Graphics card #1 name: NVIDIA GeForce GTX 1660 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 6144.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9636
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 68713.98
+	Virtual memory used (MiB): 28158.93
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 46.93
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 27539.37, total: 487494.19
+	Space in storage for workdir (MiB): available: 27539.37, total: 487494.19
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.65.jar                              |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		main                                              |Universal Armor               |universalarmor                |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.65.jar                              |NeoForge                      |neoforge                      |21.1.65             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.21.0.247.jar               |Just Enough Items             |jei                           |19.21.0.247         |Manifest: NOSIGNATURE
+	Crash Report UUID: c83f2597-6489-4af7-9178-1cbf32149a63
+	FML: 4.0.24
+	NeoForge: 21.1.65
+</file>
+
+<file path="run/crash-reports/crash-2026-06-13_23.08.50-fml.txt">
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2026-06-13 23:08:50
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+-- Mod loading issue for: universalarmor --
+Details:
+	Mod file: /C:/Users/Don McCann/Desktop/DUMP THINGS/BigOlMod/UniversalArmor/build/classes/java/main/
+	Failure message: Universal Armor (universalarmor) has failed to load correctly
+		java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+		The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+		
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$4(AutomaticEventSubscriber.java:60) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:44) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:126) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 474449688 bytes (452 MiB) / 813694976 bytes (776 MiB) up to 16944988160 bytes (16160 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 7600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.13018.6
+	Graphics card #1 name: NVIDIA GeForce GTX 1660 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 6144.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9636
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 68713.98
+	Virtual memory used (MiB): 28250.25
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 51.70
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 27971.06, total: 487494.19
+	Space in storage for workdir (MiB): available: 27971.06, total: 487494.19
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.65.jar                              |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		main                                              |Universal Armor               |universalarmor                |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.65.jar                              |NeoForge                      |neoforge                      |21.1.65             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.21.0.247.jar               |Just Enough Items             |jei                           |19.21.0.247         |Manifest: NOSIGNATURE
+	Crash Report UUID: 5c0539d0-659b-4af2-8aba-048f96b972c1
+	FML: 4.0.24
+	NeoForge: 21.1.65
+</file>
+
+<file path="run/crash-reports/crash-2026-06-13_23.15.37-fml.txt">
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2026-06-13 23:15:37
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+-- Mod loading issue for: universalarmor --
+Details:
+	Mod file: /C:/Users/Don McCann/Desktop/DUMP THINGS/BigOlMod/UniversalArmor/build/classes/java/main/
+	Failure message: Universal Armor (universalarmor) has failed to load correctly
+		java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+		The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+		
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: java.lang.IllegalArgumentException: class com.thecascadian.universalarmor.client.ModClientEvents has no @SubscribeEvent methods, but register was called anyway.
+The event bus only recognizes listener methods that have the @SubscribeEvent annotation.
+
+Stacktrace:
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.register(EventBus.java:115) ~[bus-8.0.2.jar%23143!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$4(AutomaticEventSubscriber.java:60) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:44) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:126) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:153) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.24/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.24.jar%23139!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 128083528 bytes (122 MiB) / 578813952 bytes (552 MiB) up to 16944988160 bytes (16160 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 7600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 97 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 4.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon(TM) Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 512.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.13018.6
+	Graphics card #1 name: NVIDIA GeForce GTX 1660 Ti
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 6144.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9636
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 68713.98
+	Virtual memory used (MiB): 28298.86
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 51.70
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 27963.55, total: 487494.19
+	Space in storage for workdir (MiB): available: 27963.55, total: 487494.19
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.1.65.jar                              |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		main                                              |Universal Armor               |universalarmor                |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.65.jar                              |NeoForge                      |neoforge                      |21.1.65             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.21.0.247.jar               |Just Enough Items             |jei                           |19.21.0.247         |Manifest: NOSIGNATURE
+	Crash Report UUID: 9ad973ac-3bca-4876-8c3a-1ce12579c380
+	FML: 4.0.24
+	NeoForge: 21.1.65
+</file>
+
+<file path="run/downloads/log.json">
+
+</file>
+
+<file path="run/options.txt">
+version:3955
+ao:true
+biomeBlendRadius:0
+enableVsync:true
+entityDistanceScaling:1.0
+entityShadows:true
+forceUnicodeFont:false
+japaneseGlyphVariants:false
+fov:0.0
+fovEffectScale:1.0
+darknessEffectScale:1.0
+glintSpeed:0.5
+glintStrength:0.75
+prioritizeChunkUpdates:0
+fullscreen:false
+gamma:1.0
+graphicsMode:1
+guiScale:3
+maxFps:260
+mipmapLevels:4
+narrator:0
+particles:0
+reducedDebugInfo:false
+renderClouds:"true"
+renderDistance:4
+simulationDistance:5
+screenEffectScale:1.0
+soundDevice:""
+autoJump:false
+operatorItemsTab:false
+autoSuggestions:true
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+discrete_mouse_scroll:false
+invertYMouse:false
+realmsNotifications:true
+showSubtitles:false
+directionalAudio:false
+touchscreen:false
+bobView:true
+toggleCrouch:false
+toggleSprint:false
+darkMojangStudiosBackground:false
+hideLightningFlashes:false
+hideSplashTexts:false
+mouseSensitivity:0.5
+damageTiltStrength:1.0
+highContrast:false
+narratorHotkey:true
+resourcePacks:[]
+incompatibleResourcePacks:[]
+lastServer:
+lang:en_us
+chatVisibility:0
+chatOpacity:1.0
+chatLineSpacing:0.0
+textBackgroundOpacity:0.5
+backgroundForChatOnly:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+overrideWidth:0
+overrideHeight:0
+chatHeightFocused:1.0
+chatDelay:0.0
+chatHeightUnfocused:0.4375
+chatScale:1.0
+chatWidth:1.0
+notificationDisplayTime:1.0
+useNativeTransport:true
+mainHand:"right"
+attackIndicator:1
+tutorialStep:none
+mouseWheelSensitivity:1.0
+rawMouseInput:true
+glDebugVerbosity:1
+skipMultiplayerWarning:false
+hideMatchedNames:true
+joinedFirstServer:true
+hideBundleTutorial:false
+syncChunkWrites:true
+showAutosaveIndicator:true
+allowServerListing:true
+onlyShowSecureChat:false
+panoramaScrollSpeed:1.0
+telemetryOptInExtra:false
+onboardAccessibility:false
+menuBackgroundBlurriness:5
+key_key.attack:key.mouse.right
+key_key.use:key.mouse.left
+key_key.forward:key.keyboard.w
+key_key.left:key.keyboard.a
+key_key.back:key.keyboard.s
+key_key.right:key.keyboard.d
+key_key.jump:key.keyboard.space
+key_key.sneak:key.keyboard.left.shift
+key_key.sprint:key.keyboard.left.control
+key_key.drop:key.keyboard.q
+key_key.inventory:key.keyboard.e
+key_key.chat:key.keyboard.t
+key_key.playerlist:key.keyboard.tab
+key_key.pickItem:key.mouse.middle
+key_key.command:key.keyboard.slash
+key_key.socialInteractions:key.keyboard.p
+key_key.screenshot:key.keyboard.f2
+key_key.togglePerspective:key.keyboard.f5
+key_key.smoothCamera:key.keyboard.unknown
+key_key.fullscreen:key.keyboard.f11
+key_key.spectatorOutlines:key.keyboard.unknown
+key_key.swapOffhand:key.keyboard.f
+key_key.saveToolbarActivator:key.keyboard.c
+key_key.loadToolbarActivator:key.keyboard.x
+key_key.advancements:key.keyboard.l
+key_key.hotbar.1:key.keyboard.1
+key_key.hotbar.2:key.keyboard.2
+key_key.hotbar.3:key.keyboard.3
+key_key.hotbar.4:key.keyboard.4
+key_key.hotbar.5:key.keyboard.5
+key_key.hotbar.6:key.keyboard.6
+key_key.hotbar.7:key.keyboard.7
+key_key.hotbar.8:key.keyboard.8
+key_key.hotbar.9:key.keyboard.9
+key_key.jei.toggleCheatMode:key.keyboard.unknown
+key_key.jei.showRecipe:key.keyboard.r
+key_key.jei.toggleWildcardHideIngredient:key.mouse.right:CONTROL
+key_key.jei.clearSearchBar:key.mouse.right
+key_key.jei.focusSearch:key.keyboard.f:CONTROL
+key_key.jei.toggleEditMode:key.keyboard.unknown
+key_key.jei.nextPage:key.keyboard.unknown
+key_key.jei.cheatOneItem:key.mouse.left
+key_key.jei.cheatOneItem2:key.mouse.right
+key_key.jei.previousPage:key.keyboard.unknown
+key_key.jei.showUses:key.keyboard.u
+key_key.jei.transferRecipeBookmark:key.mouse.left:SHIFT
+key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
+key_key.jei.toggleBookmarkOverlay:key.keyboard.unknown
+key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
+key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.showUses2:key.mouse.right
+key_key.jei.bookmark:key.keyboard.a
+key_key.jei.previousRecipePage:key.keyboard.page.up
+key_key.jei.showRecipe2:key.mouse.left
+key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
+key_key.jei.nextSearch:key.keyboard.down
+key_key.jei.recipeBack:key.keyboard.backspace
+key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
+key_key.jei.previousSearch:key.keyboard.up
+key_key.jei.toggleOverlay:key.keyboard.o:CONTROL
+key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
+key_key.jei.closeRecipeGui:key.keyboard.escape
+key_key.jei.cheatItemStack:key.mouse.left:SHIFT
+key_key.jei.nextRecipePage:key.keyboard.page.down
+soundCategory_master:1.0
+soundCategory_music:1.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true
+</file>
+
+<file path="run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json">
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-13 15:34:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:frozen_river": "2026-06-13 15:42:26 -0700",
+      "minecraft:snowy_plains": "2026-06-13 15:34:48 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2026-06-13 15:42:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2026-06-13 15:42:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2026-06-13 15:42:04 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2026-06-13 15:42:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-06-13 15:42:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-06-13 15:42:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2026-06-13 15:51:11 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2026-06-13 16:03:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2026-06-13 16:03:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2026-06-13 18:38:14 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2026-06-13 18:39:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2026-06-13 18:39:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2026-06-13 18:41:00 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2026-06-13 18:41:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2026-06-13 18:42:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2026-06-13 18:42:08 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot_from_netherite_block": {
+    "criteria": {
+      "has_netherite_block": "2026-06-13 19:44:15 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template": {
+    "criteria": {
+      "has_raiser_armor_trim_smithing_template": "2026-06-13 20:26:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raiser_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-06-13 20:26:59 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2026-06-13 20:27:10 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:raiser_armor_trim_smithing_template_smithing_trim": "2026-06-13 20:51:51 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-13 20:57:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2026-06-13 20:57:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-06-13 20:57:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2026-06-13 21:51:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2026-06-13 21:51:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2026-06-13 22:51:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-06-13 22:51:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2026-06-13 22:51:32 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
+</file>
+
+<file path="run/saves/New World/poi/r.-1.-1.mca">
+
+</file>
+
+<file path="run/saves/New World/serverconfig/readme.txt">
+Any server configs put in this folder will override the corresponding server config from <instance path>/config/<config path>.
+If the config being transferred is in a subfolder of the base config folder make sure to include that folder here in the path to the file you are overwriting.
+For example if you are overwriting a config with the path <instance path>/config/ExampleMod/config-server.toml, you would need to put it in serverconfig/ExampleMod/config-server.toml
+</file>
+
+<file path="run/saves/New World/session.lock">
+☃
+</file>
+
+<file path="run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json">
+{"stats":{"minecraft:custom":{"minecraft:time_since_rest":108538,"minecraft:interact_with_smithing_table":2,"minecraft:sprint_one_cm":16654,"minecraft:damage_taken":180,"minecraft:walk_one_cm":25093,"minecraft:interact_with_anvil":1,"minecraft:interact_with_crafting_table":57,"minecraft:fly_one_cm":15727,"minecraft:play_time":108538,"minecraft:sneak_time":44,"minecraft:walk_under_water_one_cm":198,"minecraft:jump":71,"minecraft:leave_game":43,"minecraft:walk_on_water_one_cm":52,"minecraft:time_since_death":108538,"minecraft:enchant_item":4,"minecraft:total_world_time":125455,"minecraft:fall_one_cm":3249},"minecraft:mined":{"minecraft:snow":31,"minecraft:spruce_log":3,"minecraft:pumpkin":17,"minecraft:crafting_table":4,"minecraft:short_grass":28,"minecraft:grass_block":20,"minecraft:oak_log":8,"minecraft:sand":14,"minecraft:dirt":2,"minecraft:spruce_leaves":7,"minecraft:stone":7,"minecraft:oak_leaves":3},"minecraft:used":{"minecraft:oak_log":1,"minecraft:wooden_axe":20,"minecraft:enchanting_table":2,"minecraft:wooden_pickaxe":7,"minecraft:wooden_shovel":58,"minecraft:dirt":2,"minecraft:anvil":1,"minecraft:crafting_table":5,"minecraft:smithing_table":1},"minecraft:crafted":{"minecraft:oak_planks":12,"minecraft:wooden_shovel":1,"universalarmor:universal_chestplate":1,"minecraft:crafting_table":1,"minecraft:spruce_planks":12,"minecraft:stick":8,"minecraft:wooden_pickaxe":1,"minecraft:wooden_axe":1,"minecraft:air":0},"minecraft:picked_up":{"minecraft:stick":3,"minecraft:crafting_table":4,"minecraft:pumpkin":16,"minecraft:sand":14,"minecraft:oak_log":8,"minecraft:spruce_sapling":2,"minecraft:spruce_log":3,"minecraft:dirt":22,"minecraft:apple":1,"minecraft:wheat_seeds":4,"minecraft:oak_sapling":2,"minecraft:snowball":31,"minecraft:cobblestone":6}},"DataVersion":3955}
+</file>
+
+<file path="run/usercache.json">
+[{"name":"Dev","uuid":"380df991-f603-344c-a090-369bad2a924a","expiresOn":"2026-07-14 02:51:09 -0700"}]
+</file>
+
+<file path="run/usernamecache.json">
+{
+  "380df991-f603-344c-a090-369bad2a924a": "Dev"
+}
+</file>
+
+<file path="settings.gradle">
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
+}
+
+rootProject.name = 'universalarmor'
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/ArmorItemRenderer.java">
+package com.thecascadian.universalarmor.client;
+
+import com.mojang.blaze3d.platform.NativeImage;
+import com.mojang.blaze3d.vertex.*;
+import com.thecascadian.universalarmor.component.ArmorMaterialComponent;
+import com.thecascadian.universalarmor.registry.ModRegistries;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.texture.DynamicTexture;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.world.item.*;
+import org.joml.Matrix4f;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+
+public class ArmorItemRenderer extends BlockEntityWithoutLevelRenderer {
+
+    private static ArmorItemRenderer instance;
+
+    public static ArmorItemRenderer getInstance() {
+        if (instance == null) {
+            Minecraft mc = Minecraft.getInstance();
+            instance = new ArmorItemRenderer(mc);
+        }
+        return instance;
+    }
+
+    private ArmorItemRenderer(Minecraft mc) {
+        super(mc.getBlockEntityRenderDispatcher(), mc.getEntityModels());
+    }
+
+    private static final Map<String, ResourceLocation> CACHE = new HashMap<>();
+
+    @Override
+    public void renderByItem(ItemStack stack, ItemDisplayContext ctx,
+                             PoseStack poseStack, MultiBufferSource buffer,
+                             int packedLight, int packedOverlay) {
+
+        ArmorMaterialComponent comp = stack.get(ModRegistries.ARMOR_MATERIAL_COMPONENT.get());
+        if (comp == null || !(stack.getItem() instanceof ArmorItem armorItem)) return;
+
+        ResourceLocation overlay = overlayFor(armorItem.getType());
+        ResourceLocation composite = getOrCreate(comp.material().value(), overlay);
+
+        VertexConsumer vc = buffer.getBuffer(RenderType.entityTranslucentCull(composite));
+        Matrix4f mat = poseStack.last().pose();
+
+        vc.addVertex(mat, 0F, 1F, 0.53125F).setColor(255, 255, 255, 255).setUv(0F, 0F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, 1);
+        vc.addVertex(mat, 0F, 0F, 0.53125F).setColor(255, 255, 255, 255).setUv(0F, 1F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, 1);
+        vc.addVertex(mat, 1F, 0F, 0.53125F).setColor(255, 255, 255, 255).setUv(1F, 1F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, 1);
+        vc.addVertex(mat, 1F, 1F, 0.53125F).setColor(255, 255, 255, 255).setUv(1F, 0F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, 1);
+
+        vc.addVertex(mat, 1F, 1F, 0.46875F).setColor(255, 255, 255, 255).setUv(1F, 0F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, -1);
+        vc.addVertex(mat, 1F, 0F, 0.46875F).setColor(255, 255, 255, 255).setUv(1F, 1F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, -1);
+        vc.addVertex(mat, 0F, 0F, 0.46875F).setColor(255, 255, 255, 255).setUv(0F, 1F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, -1);
+        vc.addVertex(mat, 0F, 1F, 0.46875F).setColor(255, 255, 255, 255).setUv(0F, 0F).setOverlay(packedOverlay).setLight(packedLight).setNormal(0, 0, -1);
+    }
+
+    private ResourceLocation overlayFor(ArmorItem.Type type) {
+        return switch (type) {
+            case HELMET     -> ResourceLocation.fromNamespaceAndPath("universalarmor", "textures/item/helmet_overlay.png");
+            case CHESTPLATE -> ResourceLocation.fromNamespaceAndPath("universalarmor", "textures/item/chestplate_overlay.png");
+            case LEGGINGS   -> ResourceLocation.fromNamespaceAndPath("universalarmor", "textures/item/leggings_overlay.png");
+            case BOOTS      -> ResourceLocation.fromNamespaceAndPath("universalarmor", "textures/item/boots_overlay.png");
+            default         -> throw new IllegalStateException("Unexpected type: " + type);
+        };
+    }
+
+    private ResourceLocation getOrCreate(Item material, ResourceLocation overlay) {
+        String key = BuiltInRegistries.ITEM.getKey(material) + "|" + overlay;
+        return CACHE.computeIfAbsent(key, k -> generate(material, overlay));
+    }
+
+    private ResourceLocation generate(Item material, ResourceLocation overlay) {
+        Minecraft mc = Minecraft.getInstance();
+        try {
+            var model = mc.getItemRenderer().getItemModelShaper().getItemModel(material.getDefaultInstance());
+            var sprite = model.getParticleIcon(net.neoforged.neoforge.client.model.data.ModelData.EMPTY);
+            ResourceLocation spriteLoc = sprite.contents().name();
+
+            ResourceLocation srcPath = ResourceLocation.fromNamespaceAndPath(
+                spriteLoc.getNamespace(),
+                "textures/" + spriteLoc.getPath() + ".png"
+            );
+
+            Optional<Resource> srcRes = mc.getResourceManager().getResource(srcPath);
+            Optional<Resource> ovlRes = mc.getResourceManager().getResource(overlay);
+
+            if (srcRes.isEmpty()) return overlay;
+            if (ovlRes.isEmpty()) return srcPath;
+
+            NativeImage src = NativeImage.read(srcRes.get().open());
+            NativeImage ovl = NativeImage.read(ovlRes.get().open());
+
+            int w = ovl.getWidth(), h = ovl.getHeight();
+            NativeImage out = new NativeImage(w, h, true);
+
+            for (int x = 0; x < w; x++) {
+                for (int y = 0; y < h; y++) {
+                    int srcPx    = src.getPixelRGBA(x % src.getWidth(), y % src.getHeight());
+                    int ovlAlpha = (ovl.getPixelRGBA(x, y) >> 24) & 0xFF;
+                    out.setPixelRGBA(x, y, (ovlAlpha << 24) | (srcPx & 0x00FFFFFF));
+                }
+            }
+
+            src.close();
+            ovl.close();
+
+            ResourceLocation matKey = BuiltInRegistries.ITEM.getKey(material);
+            ResourceLocation loc = ResourceLocation.fromNamespaceAndPath("universalarmor",
+                "dyn_" + matKey.getNamespace() + "_" + matKey.getPath() + "_" + overlay.getPath().hashCode());
+            mc.getTextureManager().register(loc, new DynamicTexture(out));
+            return loc;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return overlay;
+        }
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/ClientArmorTextureHelper.java">
+package com.thecascadian.universalarmor.client;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.Item;
+
+public class ClientArmorTextureHelper {
+    public static ResourceLocation getTexture(Item material, boolean inner) {
+        return DynamicArmorTextureManager.getOrCreateTexture(material, inner);
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/DynamicArmorLayer.java">
+package com.thecascadian.universalarmor.client;
+
+public class DynamicArmorLayer { }
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/DynamicArmorModel.java">
+package com.thecascadian.universalarmor.client;
+
+public class DynamicArmorModel { }
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/DynamicArmorTextureManager.java">
+package com.thecascadian.universalarmor.client;
+
+import com.mojang.blaze3d.platform.NativeImage;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.texture.DynamicTexture;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+
+import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+
+public class DynamicArmorTextureManager {
+    private static final Map<String, ResourceLocation> CACHE = new HashMap<>();
+
+    public static ResourceLocation getOrCreateTexture(Item material, boolean innerModel) {
+        String cacheKey = BuiltInRegistries.ITEM.getKey(material).toString() + (innerModel ? "_inner" : "_outer");
+        return CACHE.computeIfAbsent(cacheKey, key -> generateTiledTexture(material, innerModel));
+    }
+
+    private static ResourceLocation generateTiledTexture(Item material, boolean innerModel) {
+        Minecraft mc = Minecraft.getInstance();
+        ResourceLocation key = BuiltInRegistries.ITEM.getKey(material);
+        
+        ResourceLocation sourcePath;
+        if (Block.byItem(material) != Blocks.AIR) {
+            sourcePath = ResourceLocation.fromNamespaceAndPath(key.getNamespace(), "textures/block/" + key.getPath() + ".png");
+        } else {
+            sourcePath = ResourceLocation.fromNamespaceAndPath(key.getNamespace(), "textures/item/" + key.getPath() + ".png");
+        }
+
+        ResourceLocation maskPath = innerModel 
+            ? ResourceLocation.fromNamespaceAndPath("minecraft", "textures/models/armor/iron_layer_2.png")
+            : ResourceLocation.fromNamespaceAndPath("minecraft", "textures/models/armor/iron_layer_1.png");
+
+        try {
+            Optional<Resource> sourceOpt = mc.getResourceManager().getResource(sourcePath);
+            Optional<Resource> maskOpt = mc.getResourceManager().getResource(maskPath);
+
+            if (sourceOpt.isPresent() && maskOpt.isPresent()) {
+                try (InputStream sourceStream = sourceOpt.get().open();
+                     InputStream maskStream = maskOpt.get().open()) {
+                    
+                    NativeImage originalBlock = NativeImage.read(sourceStream);
+                    NativeImage maskImage = NativeImage.read(maskStream);
+
+                    int origW = originalBlock.getWidth();
+                    int origH = originalBlock.getHeight();
+                    int maskW = maskImage.getWidth();
+                    int maskH = maskImage.getHeight();
+
+                    NativeImage resultImage = new NativeImage(maskW, maskH, true);
+                    
+                    for (int x = 0; x < maskW; x++) {
+                        for (int y = 0; y < maskH; y++) {
+                            int srcX = x % origW;
+                            int srcY = y % origH;
+                            int tiledColor = originalBlock.getPixelRGBA(srcX, srcY);
+
+                            int maskColor = maskImage.getPixelRGBA(x, y);
+                            int maskAlpha = (maskColor >> 24) & 0xFF;
+
+                            int finalColor = (maskAlpha << 24) | (tiledColor & 0x00FFFFFF);
+                            resultImage.setPixelRGBA(x, y, finalColor);
+                        }
+                    }
+
+                    originalBlock.close();
+                    maskImage.close();
+
+                    DynamicTexture dynamicTexture = new DynamicTexture(resultImage);
+                    String cleanName = key.getNamespace() + "_" + key.getPath() + (innerModel ? "_inner" : "_outer");
+                    return mc.getTextureManager().register("universalarmor_" + cleanName, dynamicTexture);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        
+        return maskPath;
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/client/ModClientEvents.java">
+package com.thecascadian.universalarmor.client;
+
+public class ModClientEvents { }
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/component/ArmorMaterialComponent.java">
+package com.thecascadian.universalarmor.component;
+
+import com.mojang.serialization.Codec;
+import net.minecraft.core.Holder;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.item.Item;
+
+public record ArmorMaterialComponent(Holder<Item> material) {
+    public static final Codec<ArmorMaterialComponent> CODEC = BuiltInRegistries.ITEM.holderByNameCodec()
+            .xmap(ArmorMaterialComponent::new, ArmorMaterialComponent::material);
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/item/UniversalArmorItem.java">
+package com.thecascadian.universalarmor.item;
+
+import com.thecascadian.universalarmor.client.ArmorItemRenderer;
+import com.thecascadian.universalarmor.component.ArmorMaterialComponent;
+import com.thecascadian.universalarmor.registry.ModRegistries;
+import java.util.EnumMap;
+import java.util.List;
+import java.util.function.Consumer;
+import net.minecraft.Util;
+import net.minecraft.core.Holder;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.neoforged.neoforge.client.extensions.common.IClientItemExtensions;
+
+public class UniversalArmorItem extends ArmorItem {
+
+    private static final ArmorMaterial DYNAMIC_ARMOR_MATERIAL = new ArmorMaterial(
+        Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
+            map.put(ArmorItem.Type.HELMET, 1);
+            map.put(ArmorItem.Type.CHESTPLATE, 1);
+            map.put(ArmorItem.Type.LEGGINGS, 1);
+            map.put(ArmorItem.Type.BOOTS, 1);
+        }), 10, SoundEvents.ARMOR_EQUIP_GENERIC, () -> Ingredient.EMPTY,
+        List.of(new ArmorMaterial.Layer(ResourceLocation.withDefaultNamespace("iron"), "", false)),
+        0.0f, 0.0f
+    );
+
+    public UniversalArmorItem(ArmorItem.Type type, Properties properties) {
+        super(Holder.direct(DYNAMIC_ARMOR_MATERIAL), type, properties);
+    }
+
+    @Override
+    public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+        consumer.accept(new IClientItemExtensions() {
+            @Override
+            public net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer getCustomRenderer() {
+                return ArmorItemRenderer.getInstance();
+            }
+        });
+    }
+
+    @Override
+    public ResourceLocation getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, ArmorMaterial.Layer layer, boolean innerModel) {
+        ArmorMaterialComponent comp = stack.get(ModRegistries.ARMOR_MATERIAL_COMPONENT.get());
+        if (comp != null) {
+            if (entity.level().isClientSide()) {
+                return com.thecascadian.universalarmor.client.ClientArmorTextureHelper.getTexture(comp.material().value(), innerModel);
+            }
+        }
+        return super.getArmorTexture(stack, entity, slot, layer, innerModel);
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        ArmorMaterialComponent comp = stack.get(ModRegistries.ARMOR_MATERIAL_COMPONENT.get());
+        if (comp != null) {
+            Component materialName = comp.material().value().getDescription();
+            return Component.translatable("item.universalarmor.dynamic_format", materialName,
+                   Component.translatable(this.getDescriptionId() + ".generic"));
+        }
+        return super.getName(stack);
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/recipe/DynamicArmorRecipe.java">
+package com.thecascadian.universalarmor.recipe;
+
+import com.thecascadian.universalarmor.component.ArmorMaterialComponent;
+import com.thecascadian.universalarmor.registry.ModRegistries;
+import com.thecascadian.universalarmor.util.DynamicStatsCalculator;
+import net.minecraft.core.Holder;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.component.DataComponents;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.minecraft.world.item.crafting.*;
+import net.minecraft.world.level.Level;
+
+public class DynamicArmorRecipe extends CustomRecipe {
+
+    public DynamicArmorRecipe(CraftingBookCategory category) {
+        super(category);
+    }
+
+    @Override
+    public boolean matches(CraftingInput input, Level level) {
+        Item firstItem = null;
+        int count = 0;
+
+        for (int i = 0; i < input.size(); i++) {
+            ItemStack stack = input.getItem(i);
+            if (!stack.isEmpty()) {
+                if (firstItem == null) {
+                    firstItem = stack.getItem();
+                    if (firstItem instanceof ArmorItem || firstItem.getMaxStackSize(stack) == 1) {
+                        return false;
+                    }
+                } else if (stack.getItem() != firstItem) {
+                    return false;
+                }
+                count++;
+            }
+        }
+
+        return (count == 4 || count == 5 || count == 7 || count == 8) && detectArmorShape(input, count);
+    }
+
+    private boolean detectArmorShape(CraftingInput input, int count) {
+        int width = input.width();
+        int height = input.height();
+
+        if (width != 3 || (height != 2 && height != 3)) {
+            return false;
+        }
+
+        boolean[][] grid = new boolean[height][width];
+        for (int r = 0; r < height; r++) {
+            for (int c = 0; c < width; c++) {
+                grid[r][c] = !input.getItem(r * width + c).isEmpty();
+            }
+        }
+
+        if (count == 5 && height == 2) { // Helmet
+            return grid[0][0] && grid[0][1] && grid[0][2]
+                && grid[1][0] && !grid[1][1] && grid[1][2];
+        }
+        if (count == 8 && height == 3) { // Chestplate
+            return grid[0][0] && !grid[0][1] && grid[0][2]
+                && grid[1][0] && grid[1][1] && grid[1][2]
+                && grid[2][0] && grid[2][1] && grid[2][2];
+        }
+        if (count == 7 && height == 3) { // Leggings
+            return grid[0][0] && grid[0][1] && grid[0][2]
+                && grid[1][0] && !grid[1][1] && grid[1][2]
+                && grid[2][0] && !grid[2][1] && grid[2][2];
+        }
+        if (count == 4 && height == 2) { // Boots
+            return grid[0][0] && !grid[0][1] && grid[0][2]
+                && grid[1][0] && !grid[1][1] && grid[1][2];
+        }
+
+        return false;
+    }
+
+    @Override
+    public ItemStack assemble(CraftingInput input, HolderLookup.Provider registries) {
+        ItemStack firstStack = ItemStack.EMPTY;
+        int ingredientCount = 0;
+        
+        for (int i = 0; i < input.size(); i++) {
+            ItemStack s = input.getItem(i);
+            if (!s.isEmpty()) {
+                if (firstStack.isEmpty()) firstStack = s;
+                ingredientCount++;
+            }
+        }
+        
+        if (firstStack.isEmpty()) return ItemStack.EMPTY;
+
+        Item materialItem = firstStack.getItem();
+
+        ItemStack result = switch (ingredientCount) {
+            case 5 -> new ItemStack(ModRegistries.UNIVERSAL_HELMET.get());
+            case 8 -> new ItemStack(ModRegistries.UNIVERSAL_CHESTPLATE.get());
+            case 7 -> new ItemStack(ModRegistries.UNIVERSAL_LEGGINGS.get());
+            case 4 -> new ItemStack(ModRegistries.UNIVERSAL_BOOTS.get());
+            default -> ItemStack.EMPTY;
+        };
+
+        if (result.isEmpty()) return ItemStack.EMPTY;
+
+        ArmorItem armorItem = (ArmorItem) result.getItem();
+        ArmorItem.Type slotType = armorItem.getType();
+
+        Holder<Item> itemHolder = BuiltInRegistries.ITEM.wrapAsHolder(materialItem);
+        result.set(ModRegistries.ARMOR_MATERIAL_COMPONENT.get(), new ArmorMaterialComponent(itemHolder));
+
+        int baseDurability = switch (slotType) {
+            case HELMET -> 11;
+            case CHESTPLATE -> 16;
+            case LEGGINGS -> 15;
+            case BOOTS -> 13;
+            default -> 12;
+        };
+        result.set(DataComponents.MAX_DAMAGE, baseDurability * DynamicStatsCalculator.getDurabilityMultiplier(materialItem));
+
+        EquipmentSlotGroup targetSlot = switch (slotType) {
+            case HELMET -> EquipmentSlotGroup.HEAD;
+            case CHESTPLATE -> EquipmentSlotGroup.CHEST;
+            case LEGGINGS -> EquipmentSlotGroup.LEGS;
+            case BOOTS -> EquipmentSlotGroup.FEET;
+            default -> EquipmentSlotGroup.ANY;
+        };
+
+        ItemAttributeModifiers.Builder attributesBuilder = ItemAttributeModifiers.builder();
+        attributesBuilder.add(Attributes.ARMOR, new AttributeModifier(
+                ResourceLocation.fromNamespaceAndPath("universalarmor", "defense"),
+                DynamicStatsCalculator.getDefense(materialItem, slotType),
+                AttributeModifier.Operation.ADD_VALUE
+                ), targetSlot);
+
+        float toughness = DynamicStatsCalculator.getToughness(materialItem);
+        if (toughness > 0) {
+            attributesBuilder.add(Attributes.ARMOR_TOUGHNESS, new AttributeModifier(
+                    ResourceLocation.fromNamespaceAndPath("universalarmor", "toughness"),
+                    toughness,
+                    AttributeModifier.Operation.ADD_VALUE
+            ), targetSlot);
+        }
+        result.set(DataComponents.ATTRIBUTE_MODIFIERS, attributesBuilder.build());
+
+        return result;
+    }
+
+    @Override
+    public boolean canCraftInDimensions(int width, int height) {
+        return width * height >= 4;
+    }
+
+    @Override
+    public ItemStack getResultItem(HolderLookup.Provider registries) {
+        return new ItemStack(ModRegistries.UNIVERSAL_CHESTPLATE.get());
+    }
+
+    @Override
+    public RecipeSerializer<?> getSerializer() {
+        return ModRegistries.DYNAMIC_ARMOR_SERIALIZER.get();
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/registry/ModRegistries.java">
+package com.thecascadian.universalarmor.registry;
+
+import com.thecascadian.universalarmor.UniversalArmorMod;
+import com.thecascadian.universalarmor.component.ArmorMaterialComponent;
+import com.thecascadian.universalarmor.item.UniversalArmorItem;
+import com.thecascadian.universalarmor.recipe.DynamicArmorRecipe;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer;
+import net.minecraft.core.component.DataComponentType;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
+
+public class ModRegistries {
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(UniversalArmorMod.MOD_ID);
+    public static final DeferredRegister<DataComponentType<?>> DATA_COMPONENT_TYPES = 
+            DeferredRegister.createDataComponents(Registries.DATA_COMPONENT_TYPE, UniversalArmorMod.MOD_ID);
+    public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS = 
+            DeferredRegister.create(Registries.RECIPE_SERIALIZER, UniversalArmorMod.MOD_ID);
+
+    public static final DeferredHolder<DataComponentType<?>, DataComponentType<ArmorMaterialComponent>> ARMOR_MATERIAL_COMPONENT =
+            DATA_COMPONENT_TYPES.register("material", () -> DataComponentType.<ArmorMaterialComponent>builder()
+                    .persistent(ArmorMaterialComponent.CODEC)
+                    .build());
+
+    public static final DeferredHolder<Item, UniversalArmorItem> UNIVERSAL_HELMET = ITEMS.register("universal_helmet", 
+            () -> new UniversalArmorItem(ArmorItem.Type.HELMET, new Item.Properties().stacksTo(1)));
+    public static final DeferredHolder<Item, UniversalArmorItem> UNIVERSAL_CHESTPLATE = ITEMS.register("universal_chestplate", 
+            () -> new UniversalArmorItem(ArmorItem.Type.CHESTPLATE, new Item.Properties().stacksTo(1)));
+    public static final DeferredHolder<Item, UniversalArmorItem> UNIVERSAL_LEGGINGS = ITEMS.register("universal_leggings", 
+            () -> new UniversalArmorItem(ArmorItem.Type.LEGGINGS, new Item.Properties().stacksTo(1)));
+    public static final DeferredHolder<Item, UniversalArmorItem> UNIVERSAL_BOOTS = ITEMS.register("universal_boots", 
+            () -> new UniversalArmorItem(ArmorItem.Type.BOOTS, new Item.Properties().stacksTo(1)));
+
+    public static final DeferredHolder<RecipeSerializer<?>, SimpleCraftingRecipeSerializer<DynamicArmorRecipe>> DYNAMIC_ARMOR_SERIALIZER =
+            RECIPE_SERIALIZERS.register("dynamic_armor", () -> new SimpleCraftingRecipeSerializer<>(DynamicArmorRecipe::new));
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/UniversalArmorMod.java">
+package com.thecascadian.universalarmor;
+
+import com.thecascadian.universalarmor.registry.ModRegistries;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.common.Mod;
+
+@Mod(UniversalArmorMod.MOD_ID)
+public class UniversalArmorMod {
+    public static final String MOD_ID = "universalarmor";
+
+    public UniversalArmorMod(IEventBus modEventBus) {
+        ModRegistries.ITEMS.register(modEventBus);
+        ModRegistries.DATA_COMPONENT_TYPES.register(modEventBus);
+        ModRegistries.RECIPE_SERIALIZERS.register(modEventBus);
+    }
+}
+</file>
+
+<file path="src/main/java/com/thecascadian/universalarmor/util/DynamicStatsCalculator.java">
+package com.thecascadian.universalarmor.util;
+
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+
+public class DynamicStatsCalculator {
+
+    public static int getDurabilityMultiplier(Item item) {
+        String name = BuiltInRegistries.ITEM.getKey(item).getPath();
+        if (name.contains("netherite") || name.contains("obsidian")) return 37;
+        if (name.contains("diamond") || name.contains("steel") || name.contains("titanium")) return 33;
+        if (name.contains("iron") || name.contains("bronze") || name.contains("copper") || name.contains("tin")) return 15;
+        if (name.contains("gold") || name.contains("wood") || name.contains("leather")) return 7;
+        if (name.contains("stone") || name.contains("cobble")) return 10;
+
+        Block block = Block.byItem(item);
+        if (block != Blocks.AIR) {
+            float hardness = block.defaultBlockState().getDestroySpeed(null, null);
+            if (hardness < 0) return 40;
+            if (hardness == 0) return 5;
+            return Math.clamp((int) (hardness * 5), 5, 40);
+        }
+
+        Rarity rarity = item.getDefaultInstance().getRarity();
+        return switch (rarity) {
+            case EPIC -> 40;
+            case RARE -> 30;
+            case UNCOMMON -> 20;
+            default -> 12;
+        };
+    }
+
+    public static int getDefense(Item item, ArmorItem.Type type) {
+        int multiplier = getDurabilityMultiplier(item);
+        float quality = multiplier / 30.0f;
+        int baseDefense = switch (type) {
+            case HELMET -> 3;
+            case CHESTPLATE -> 8;
+            case LEGGINGS -> 6;
+            case BOOTS -> 3;
+            default -> 1;
+        };
+        return Math.clamp(Math.round(baseDefense * quality), 1, 10);
+    }
+
+    public static float getToughness(Item item) {
+        int multiplier = getDurabilityMultiplier(item);
+        if (multiplier >= 33) return 3.0f;
+        if (multiplier >= 20) return 1.5f;
+        return 0.0f;
+    }
+
+    public static int getMaterialColor(Item item) {
+        String name = BuiltInRegistries.ITEM.getKey(item).getPath();
+        if (name.contains("iron") || name.contains("tin") || name.contains("silver") || name.contains("lead")) return 0xC0C0C0;
+        if (name.contains("gold") || name.contains("electrum")) return 0xFED83D;
+        if (name.contains("copper") || name.contains("bronze")) return 0xE07040;
+        if (name.contains("diamond") || name.contains("prismarine") || name.contains("sapphire")) return 0x33EBFC;
+        if (name.contains("netherite") || name.contains("obsidian") || name.contains("coal")) return 0x2A2A2A;
+        if (name.contains("emerald")) return 0x17DD62;
+        if (name.contains("redstone") || name.contains("ruby")) return 0xFF0000;
+        if (name.contains("wood") || name.contains("planks") || name.contains("oak")) return 0x8F6E45;
+        if (name.contains("stone") || name.contains("cobble") || name.contains("andesite")) return 0x7E7E7E;
+        if (name.contains("dirt") || name.contains("mud") || name.contains("clay")) return 0x5C4033;
+        if (name.contains("grass") || name.contains("leaves") || name.contains("slime")) return 0x5E973B;
+
+        int hash = name.hashCode();
+        int r = 50 + (Math.abs((hash & 0xFF0000) >> 16) % 180);
+        int g = 50 + (Math.abs((hash & 0x00FF00) >> 8) % 180);
+        int b = 50 + (Math.abs(hash & 0x0000FF) % 180);
+        return (r << 16) | (g << 8) | b;
+    }
+}
+</file>
+
+<file path="src/main/resources/assets/universalarmor/lang/en_us.json">
+{
+  "item.universalarmor.dynamic_format": "%s %s",
+  "item.universalarmor.universal_helmet.generic": "Helmet",
+  "item.universalarmor.universal_chestplate.generic": "Chestplate",
+  "item.universalarmor.universal_leggings.generic": "Leggings",
+  "item.universalarmor.universal_boots.generic": "Boots"
+}
+</file>
+
+<file path="src/main/resources/assets/universalarmor/models/item/universal_boots.json">
+{ "parent": "minecraft:builtin/entity" }
+</file>
+
+<file path="src/main/resources/assets/universalarmor/models/item/universal_chestplate.json">
+{ "parent": "minecraft:builtin/entity" }
+</file>
+
+<file path="src/main/resources/assets/universalarmor/models/item/universal_helmet.json">
+{ "parent": "minecraft:builtin/entity" }
+</file>
+
+<file path="src/main/resources/assets/universalarmor/models/item/universal_leggings.json">
+{ "parent": "minecraft:builtin/entity" }
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/enchantable/armor.json">
+{
+  "replace": false,
+  "values": [
+    "universalarmor:universal_helmet",
+    "universalarmor:universal_chestplate",
+    "universalarmor:universal_leggings",
+    "universalarmor:universal_boots"
+  ]
+}
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/enchantable/chest_armor.json">
+{
+  "replace": false,
+  "values": ["universalarmor:universal_chestplate"]
+}
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/enchantable/foot_armor.json">
+{
+  "replace": false,
+  "values": ["universalarmor:universal_boots"]
+}
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/enchantable/head_armor.json">
+{
+  "replace": false,
+  "values": ["universalarmor:universal_helmet"]
+}
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/enchantable/leg_armor.json">
+{
+  "replace": false,
+  "values": ["universalarmor:universal_leggings"]
+}
+</file>
+
+<file path="src/main/resources/data/minecraft/tags/item/trimmable_armor.json">
+{
+  "replace": false,
+  "values": [
+    "universalarmor:universal_helmet",
+    "universalarmor:universal_chestplate",
+    "universalarmor:universal_leggings",
+    "universalarmor:universal_boots"
+  ]
+}
+</file>
+
+<file path="src/main/resources/data/universalarmor/recipe/dynamic_armor.json">
+{
+  "type": "universalarmor:dynamic_armor"
+}
+</file>
+
+<file path="src/main/resources/META-INF/MANIFEST.MF">
+Manifest-Version: 1.0
+</file>
+
+<file path="src/main/resources/META-INF/neoforge.mods.toml">
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="universalarmor"
+version="1.0.0"
+displayName="Universal Armor"
+authors="TheCascadian"
+description='''
+Craft armor dynamically out of absolutely anything in the game! Full cross-mod compatibility with no custom registry bloat.
+'''
+
+[[dependencies.universalarmor]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.universalarmor]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
+</file>
+
+<file path="src/main/resources/pack.mcmeta">
+{
+  "pack": {
+    "description": "Universal Armor",
+    "pack_format": 48
+  }
+}
+</file>
+
+</files>

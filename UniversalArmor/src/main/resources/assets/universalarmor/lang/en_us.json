@@ -1,0 +1,7 @@
+{
+  "item.universalarmor.dynamic_format": "%s %s",
+  "item.universalarmor.universal_helmet.generic": "Helmet",
+  "item.universalarmor.universal_chestplate.generic": "Chestplate",
+  "item.universalarmor.universal_leggings.generic": "Leggings",
+  "item.universalarmor.universal_boots.generic": "Boots"
+}
