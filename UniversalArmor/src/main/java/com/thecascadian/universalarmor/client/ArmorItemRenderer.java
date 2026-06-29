@@ -103,9 +103,19 @@ public class ArmorItemRenderer extends BlockEntityWithoutLevelRenderer {
 
             for (int x = 0; x < w; x++) {
                 for (int y = 0; y < h; y++) {
-                    int srcPx    = src.getPixelRGBA(x % src.getWidth(), y % src.getHeight());
-                    int ovlAlpha = (ovl.getPixelRGBA(x, y) >> 24) & 0xFF;
-                    out.setPixelRGBA(x, y, (ovlAlpha << 24) | (srcPx & 0x00FFFFFF));
+                    int srcPx = src.getPixelRGBA(x % src.getWidth(), y % src.getHeight());
+                    int ovlColor = ovl.getPixelRGBA(x, y);
+                    int ovlAlpha = (ovlColor >> 24) & 0xFF;
+                    
+                    if (ovlAlpha > 0) {
+                        float shadeMultiplier = (ovlColor & 0xFF) / 255.0f;
+                        int r = (int) (((srcPx) & 0xFF) * shadeMultiplier);
+                        int g = (int) (((srcPx >> 8) & 0xFF) * shadeMultiplier);
+                        int b = (int) (((srcPx >> 16) & 0xFF) * shadeMultiplier);
+                        out.setPixelRGBA(x, y, (ovlAlpha << 24) | (b << 16) | (g << 8) | r);
+                    } else {
+                        out.setPixelRGBA(x, y, 0); // Keep transparent parts transparent
+                    }
                 }
             }
 

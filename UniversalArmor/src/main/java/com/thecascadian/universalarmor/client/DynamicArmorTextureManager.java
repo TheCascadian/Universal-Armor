@@ -11,8 +11,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.Resource;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 
 public class DynamicArmorTextureManager {
 
@@ -69,7 +67,7 @@ public class DynamicArmorTextureManager {
       Optional<Resource> maskOpt = mc
         .getResourceManager()
         .getResource(maskPath);
-      // ... (rest of your generation code remains unchanged)
+
       if (sourceOpt.isPresent() && maskOpt.isPresent()) {
         try (
           InputStream sourceStream = sourceOpt.get().open();
@@ -94,8 +92,20 @@ public class DynamicArmorTextureManager {
               int maskColor = maskImage.getPixelRGBA(x, y);
               int maskAlpha = (maskColor >> 24) & 0xFF;
 
-              int finalColor = (maskAlpha << 24) | (tiledColor & 0x00FFFFFF);
-              resultImage.setPixelRGBA(x, y, finalColor);
+              if (maskAlpha > 0) {
+                // Extract the grayscale shade from the iron armor mask
+                float shadeMultiplier = (maskColor & 0xFF) / 255.0f;
+
+                // Multiply the block texture's colors by the shade
+                int r = (int) (((tiledColor) & 0xFF) * shadeMultiplier);
+                int g = (int) (((tiledColor >> 8) & 0xFF) * shadeMultiplier);
+                int b = (int) (((tiledColor >> 16) & 0xFF) * shadeMultiplier);
+
+                int finalColor = (maskAlpha << 24) | (b << 16) | (g << 8) | r;
+                resultImage.setPixelRGBA(x, y, finalColor);
+              } else {
+                resultImage.setPixelRGBA(x, y, 0); // Keep transparent parts transparent
+              }
             }
           }
 

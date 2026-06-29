@@ -45,7 +45,7 @@ public class ModRegistries {
   > UNIVERSAL_HELMET = ITEMS.register("universal_helmet", () ->
     new UniversalArmorItem(
       ArmorItem.Type.HELMET,
-      new Item.Properties().stacksTo(1)
+      new Item.Properties().durability(11) // Adds standard damage components
     )
   );
   public static final DeferredHolder<
@@ -54,7 +54,7 @@ public class ModRegistries {
   > UNIVERSAL_CHESTPLATE = ITEMS.register("universal_chestplate", () ->
     new UniversalArmorItem(
       ArmorItem.Type.CHESTPLATE,
-      new Item.Properties().stacksTo(1)
+      new Item.Properties().durability(16) // Adds standard damage components
     )
   );
   public static final DeferredHolder<
@@ -63,14 +63,14 @@ public class ModRegistries {
   > UNIVERSAL_LEGGINGS = ITEMS.register("universal_leggings", () ->
     new UniversalArmorItem(
       ArmorItem.Type.LEGGINGS,
-      new Item.Properties().stacksTo(1)
+      new Item.Properties().durability(15) // Adds standard damage components
     )
   );
   public static final DeferredHolder<Item, UniversalArmorItem> UNIVERSAL_BOOTS =
     ITEMS.register("universal_boots", () ->
       new UniversalArmorItem(
         ArmorItem.Type.BOOTS,
-        new Item.Properties().stacksTo(1)
+        new Item.Properties().durability(13) // Adds standard damage components
       )
     );
 
