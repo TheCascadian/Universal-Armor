@@ -40,7 +40,7 @@ Requires NeoForge 1.21+. MIT licensed.
 
 ***
 
-## Also from Me
+## Also from Me!
 
 | Project | Platform | Downloads |
 |---|---|---|
