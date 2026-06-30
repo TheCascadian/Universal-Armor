@@ -44,10 +44,9 @@ Requires NeoForge 1.21+. MIT licensed.
 
 | Project | Platform | Downloads |
 |---|---|---|
-| [Universal Compression](https://github.com/TheCascadian/Universal-Compression) | [Modrinth](https://modrinth.com/mod/universal-compression) | <!-- UC_MODRINTH_DOWNLOADS: 255 --> |
-| [Universal Compression](https://github.com/TheCascadian/Universal-Compression) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/universal-compression) | <!-- UC_CURSEFORGE_DOWNLOADS: 40+ --> |
-| [HOI4 Focus GUI](https://github.com/TheCascadian/HOI4FocusGUI) | GitHub | <!-- HF_GUI_STARS: 6 --> |
-| [Public Python Package](https://github.com/TheCascadian/Public-Python-Package) | GitHub | <!-- PPP_STARS: 0 --> |
+| [Universal Compression](https://github.com/TheCascadian/Universal-Compression) | [Modrinth](https://modrinth.com/mod/universal-compression) | 255 |
+| [Universal Compression](https://github.com/TheCascadian/Universal-Compression) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/universal-compression) | 40+ |
+| [HOI4 Focus GUI](https://github.com/TheCascadian/HOI4FocusGUI) | GitHub | 6 |
 
 > Download counts for Universal Compression are pulled from live Modrinth and CurseForge figures. Numbers shown are current as of the last update.
 
