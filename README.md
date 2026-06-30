@@ -1,7 +1,7 @@
-![Universal Armor](https://your-banner-url-here.png)
+![Universal Armor](https://github.com/TheCascadian/Universal-Armor/blob/main/universalarmor3.png)
 <!-- PLACEHOLDER: Replace banner image with glitch/distorted armor banner -->
 
-Craft armor out of nearly anything in the game. Dirt chestplates. Diamond ore boots. Compressed obsidian leggings if you are running Universal Compression alongside this.
+Craft armor out of ***(nearly) anything*** in the game. Dirt chestplates. Diamond ore boots. Compressed obsidian leggings if you are running Universal Compression alongside this.
 
 ***
 
